@@ -40,7 +40,6 @@ with st.sidebar:
     top_p=st.slider('top_p', min_value=0.01, max_value=1.0, value=0.9, step=0.01)
     max_length=st.slider('max_length', min_value=64, max_value=4096, value=512, step=8)
 
-    st.markdown('I make content on AI on regular basis do check my Youtube channel [link](https://www.youtube.com/@muhammadmoinfaisal/videos)')
 
 os.environ['REPLICATE_API_TOKEN']=add_replicate_api
 
