@@ -12,12 +12,12 @@ import os
 
 # Step 2: Add a title to your Streamlit Application on Browser
 
-st.set_page_config(page_title="🦙💬 Llama 2 Chatbot with Streamlit")
+st.set_page_config(page_title="This is Personal chatbot where you can get your day-to-day queries being solved.")
 
 
 #Create a Side bar
 with st.sidebar:
-    st.title("🦙💬 Llama 2 Chatbot")
+    st.title("EduBot")
     st.header("Settings")
 
     add_replicate_api=st.text_input('Enter the Replicate API token', type='password')
